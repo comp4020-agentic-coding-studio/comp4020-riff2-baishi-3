@@ -129,7 +129,7 @@ nav[aria-label="Primary"] a[aria-current="page"] {
   width: 100%;
   max-width: var(--max);
   margin: 0 auto;
-  padding: 3rem clamp(1.25rem, 4vw, 3rem) 3rem;
+  padding: 3rem clamp(1.25rem, 4vw, 3rem);
 }
 
 .hero h1 {
@@ -168,7 +168,7 @@ nav[aria-label="Primary"] a[aria-current="page"] {
   margin: 0.2rem 0 0;
 }
 
-.visit-strip a {
+.visit-strip-link {
   color: var(--paper);
 }
 
@@ -436,7 +436,7 @@ main > section + section {
   align-self: center;
 }
 
-.exhibition-now img {
+.exhibition-photo {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -513,7 +513,7 @@ footer {
   margin: 0 0 0.6rem;
 }
 
-.footer-note a {
+.footer-note-link {
   color: var(--gold);
 }
 
@@ -522,7 +522,7 @@ footer {
   gap: 1.25rem;
 }
 
-.footer-social a {
+.footer-social-link {
   color: var(--paper);
 }
 
